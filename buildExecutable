@@ -1,0 +1,6 @@
+cd /
+cd /ubuntu/project/Time-show-on-browser
+docker stop hello-time
+docker rm hello-time
+docker build -t hello-timeu /ubuntu/project/Time-show-on-browser
+docker run -d --name hello-time -p 8182:8182 -v /home/ubuntu/project/Time-show-on-browser/dist:/var/www/html hello-timeu
