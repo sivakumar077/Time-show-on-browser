@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Hello World sivakum</title>
+<title>Hello World sivaku</title>
 </head>
 <body>
 	<h1>Hello Worldssivakumar</h1>
